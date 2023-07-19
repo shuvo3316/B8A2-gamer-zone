@@ -1,0 +1,259 @@
+/* commonly shared styles  */
+body {
+    font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+
+}
+
+
+
+/* nav styles- */
+
+.gamer{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+font-size: 2.8rem;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 9rem;
+
+}
+.nav-list>ul{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+
+}
+ .nav-list-back{
+   
+
+}
+.gamer-title{
+    padding-bottom: 10px;
+}
+.nav-list{
+    padding-top: 50px;
+}
+.nav-list a{
+    text-decoration: none;
+}
+.nav-list .pera{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    height: 40px;
+    align-items: center;
+    
+   
+
+}
+
+/* banner-section */
+.banner{
+    background: #FFF;
+    display: flex;
+   
+    width: 100%;
+    background-image: url(../images/Group\ 14.png);
+    justify-content: space-between;   
+    margin-bottom: 100px;
+}
+.banner-description{
+    text-align: center;
+   
+    [padding: 100px 200px;]
+  
+    
+}
+.banner-title{
+    color: #0B0223;
+text-align: center;
+font-weight: 600;
+font-size: 2rem;
+margin-top: 10rem;
+f
+}
+
+.banner-title2{
+    
+    
+    font-size: 4rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin: 0px;
+
+}
+
+.text-light{
+    color: #534C64;
+    font-size: 1rem;
+font-weight: 400;
+margin-left: 100px;
+text-align: left;
+
+    
+}
+
+
+.btn-primary{
+    display: inline-flex;
+    padding: 1.3rem 2.5rem;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 3rem;
+    color: #FFF;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.btn-primary1{
+
+    display: inline-flex;
+    padding: 1.3rem 2.5rem;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 3rem;
+    color: #FFF;
+background: #4EC5F7;
+}
+.banner li{
+    list-style: none;
+   text-align: left;
+    
+   
+}
+.banner .img2{
+    background-color: white;
+    padding: 0px 100px;
+    
+    
+}
+/* section-2 */
+.games-card-container{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 0px 100px;
+}
+.section-title{
+    color: #0B0223;
+text-align: center;
+font-size: 2rem;
+font-weight: 700;
+margin-top: 20px;
+}
+.section-title-style{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.section-description{
+    text-align: center;
+    color: #534C64;
+    font-size: 0.8rem;
+}
+
+
+
+
+.card-img:hover{
+    filter: blur(3PX);
+    border: 5px solid red;
+    border-radius: 8px;
+    
+   
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+/* section-3  */
+.section-3{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    padding-bottom: 350px;
+    align-items: center;
+}
+.section-3-img{
+    width: 700px;
+    height: 500px;
+}
+.section-3-description{
+   
+    width: 350px;
+    height: 300px;
+    font-size: 2rem;
+   padding-top: 200px;
+   padding-right: 200px;
+   text-align: left;
+}
+.inside-img{
+    border-radius: 8px;
+border: 10px solid #FFF;
+background: url(<path-to-image>), lightgray -7.209px 0px / 114.78% 100% no-repeat;
+width: 320px;
+height: 365px;
+position: relative;
+bottom: 250px;
+margin-left: 500px;
+margin-bottom: 100px;
+}
+
+/* section-4  */
+.section-4{
+    
+    display: flex;
+    
+    gap: 30px;
+    
+    justify-content: space-around;
+    padding: 20px;
+}
+.div-icon{
+    display: flex;
+    justify-content: center;
+}
+.btn-icon{
+    border-radius: 50px;
+background: #FFF;
+border: 0;
+}
+.icon-img{
+    width: 60px;
+height: 60px;
+}
+
+.text-light2{
+    color: #534C64;
+    font-size: 1rem;
+font-weight: 400;
+padding:10px;}
+
+.section-4-container{
+    
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 100px;
+
+}
+/* footer-section  */
+.footer{
+    background-color: #0B0223;
+}
+
+
+
+
