@@ -114,6 +114,7 @@ text-align: center;
 font-weight: 600;
 font-size: 2rem;
 margin-top: 10rem;
+padding-right: 16.87rem;
 
 }
 
@@ -125,6 +126,8 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 margin: 0px;
+text-align: left;
+    padding-left: 94px;
 
 }
 
