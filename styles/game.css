@@ -154,6 +154,7 @@ background: #4EC5F7;
 /* section-2 */
 .section-2{
     width: 100%;
+    margin-bottom: 100px;
 }
 .games-card-container{
     width: 100%;
@@ -206,6 +207,7 @@ background-clip: text;
 }
 .section-3-img{
     width: 500px;
+    height: 500px;
 }
 .section-3-description{
    
