@@ -22,63 +22,91 @@ font-size: 2.8rem;
 .gamer-title{
     margin: 0px;
 }
-.nav{
-   
-    display: flex;
-
-    justify-content: space-between;
-    
-
-}
-.nav-list>ul{
+.gamer{
+ 
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px;
-    gap: 20px;
-}
-
-nav li {
-    list-style: none;
+   font-size: 2.5rem;
    
-
-}
- .nav-list-back{
+   }
+   .nav{
+       /* width: 100%; */
+       display: flex;
+       justify-content: space-between;
+       padding: 0px 50px;
+       box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+       /* background-color: #0B0223; */
+       margin-bottom: 30px;
    
-
-}
-
-.nav-list{
-    /* padding-top: 50px; */
-}
-.nav-list a{
-    text-decoration: none;
-}
-.nav-list .pera{
-    display: flex;
-    justify-content: space-between;
-    border-radius: 8px;
-    background: rgba(11, 2, 35, 0.10);
-    
-    align-items: center;
-    
+   }
+   .nav-list>ul{
+       display: flex;
+       justify-content: center;
+       gap: 20px;
+       align-items: center;
+   }
    
-
-}
+   nav li {
+       list-style: none;
+       /* margin-right: 50px; */
+   
+   }
+    .nav-list-back{
+      
+   
+   }
+   .gamer-title{
+       padding-bottom: 10px;
+   }
+   .gamer h3{
+       margin: 0px;
+   }
+   .nav-list{
+       /* padding-top: 50px; */
+   }
+   .nav-list a{
+       text-decoration: none;
+   }
+   .nav-list .pera{
+       display: flex;
+       justify-content: space-around;
+       gap: 10px;
+       border-radius: 8px;
+       background: rgba(11, 2, 35, 0.10);
+       /* height: 40px; */
+       padding: 0px 10px;
+       align-items: center;
+       
+      
+   
+   }
 
 /* banner-section */
 .banner{
     background: #FFF;
     display: flex;
-    background-image: url(../images/Group\ 14.png);
+   
+    width: 100%;
     justify-content: space-between;   
     margin-bottom: 100px;
+    border: 2px solid black;
 }
 .banner-description{
-    text-align: center; 
+    background-image: url(../images/Group1.png);
+    text-align: center;
+    width: 50%;
+    /* padding: 100px 200px; */
+  
+    
 }
-.banner-img {
+.banner-img{
+    width: 50%;
+}
+.banner-img img{
     width: 400px;
+    height: 550px;
+    padding: 0px 200px 0px 0px;
 }
 .banner-title{
     color: #0B0223;
@@ -90,8 +118,6 @@ margin-top: 10rem;
 }
 
 .banner-title2{
-    
-    
     font-size: 4rem;
     font-weight: 800;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
