@@ -247,7 +247,7 @@ padding:10px;}
     
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
    
-    padding: 100px 300px;
+    padding: 100px ;
     display:flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -356,9 +356,7 @@ font-weight: 500;
     .games-card-container{
         grid-template-columns: 1fr;
     }
-    .section-4-container{
-        
-    }
+    
     .img2{
         width: 90%;
       margin-left: 0;
@@ -414,11 +412,7 @@ font-weight: 500;
     /* margin: 0px; */
     padding-left: 53px;
 }
-.footer-social-media {
-    padding: 0px 272px;
-    /* margin: 0px; */
-    padding-left: 53px;
-}
+
 .section-5 {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -451,6 +445,7 @@ font-weight: 500;
     grid-template-columns: repeat(3,1fr);
     /* gap: 72px; */
     justify-content: space-around;
+    align-items: center;
 }
 
 }
