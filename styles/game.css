@@ -12,12 +12,12 @@ font-family: 'Work Sans', sans-serif;
 /* nav styles- */
 
 .gamer{
-    width: ;
+    
  display: flex;
  justify-content: center;
  align-items: center;
 font-size: 2.8rem;
-padding-left:;
+
 }
 .gamer-title{
     margin: 0px;
@@ -70,22 +70,15 @@ nav li {
 .banner{
     background: #FFF;
     display: flex;
-   
-    width: 100%;
     background-image: url(../images/Group\ 14.png);
     justify-content: space-between;   
     margin-bottom: 100px;
 }
 .banner-description{
-    text-align: center;
-    width: 50%;
-   
-    
-  
-    
+    text-align: center; 
 }
-.banner-img{
-    width: 50%;
+.banner-img {
+    width: 400px;
 }
 .banner-title{
     color: #0B0223;
@@ -93,7 +86,7 @@ text-align: center;
 font-weight: 600;
 font-size: 2rem;
 margin-top: 10rem;
-f
+
 }
 
 .banner-title2{
@@ -402,6 +395,7 @@ font-weight: 500;
     .inside-img{
         max-width: 300px;
         position: static;
+        margin-left: 90px;
        
   
 }
@@ -417,7 +411,7 @@ font-weight: 500;
 
 
 .section-4{
-    width: 100%;
+    
     
     display: grid;
      grid-template-columns: repeat(3,1fr);
